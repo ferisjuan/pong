@@ -24,7 +24,8 @@ WINDOW_WIDTH = 1280
 WINDOW_HEIGHT = 720
 
 --[[
-    Runs when the game first starts up, only once; used to initialize the game.
+    Runs when the game first starts up, only once; used to initialize 
+		the game.
 ]]
 function love.load()
     love.window.setMode(WINDOW_WIDTH, WINDOW_HEIGHT, {
@@ -35,7 +36,8 @@ function love.load()
 end
 
 --[[
-    Called after update by LÖVE2D, used to draw anything to the screen, updated or otherwise.
+    Called after update by LÖVE2D, used to draw anything to the screen, 
+		updated or otherwise.
 ]]
 function love.draw()
     love.graphics.printf(
